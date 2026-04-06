@@ -9,6 +9,7 @@ namespace MVRL20260406.AppSeguridadWeb.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             string passwordHash = "$2a$11$hDEUK3aSHfrxt4SDvkV94.BHbSk2dfR8AX0/.puPHXqVDWcPAwyc6";  // Admin123
             modelBuilder.Entity<Usuario>().HasData(
                 new Usuario
