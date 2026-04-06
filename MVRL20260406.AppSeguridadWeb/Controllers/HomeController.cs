@@ -23,3 +23,4 @@ namespace MVRL20260406.AppSeguridadWeb.Controllers
         }
     }
 }
+
