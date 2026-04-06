@@ -22,4 +22,6 @@ namespace MVRL20260406.AppSeguridadWeb.Models
             );
         }
     }
+}
+
 
